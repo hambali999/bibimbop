@@ -3,6 +3,7 @@ import CartCounterButton from "../../components/Common/CartCountButton/CartCount
 import Footer from "../../components/Common/Footer/Footer";
 import Banner from "../../components/Home/Banner/Banner";
 import Menu from "../../components/Home/Menu/Menu";
+import { menuItemsData } from "../../components/Home/Menu/data";
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       {/* BANNER */}
       <Banner />
       {/* MENU */}
-      <Menu />
+      <Menu list={menuItemsData} />
       {/* FOOTER  */}
       <Footer />
       {/* CART COUNT BUTTON */}
