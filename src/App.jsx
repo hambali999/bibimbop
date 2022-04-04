@@ -6,7 +6,7 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import ErrorPage from "./pages/ErrorPage/ErrorPage";
+// import ErrorPage from "./pages/ErrorPage/ErrorPage";
 import Cart from "./pages/Cart/Cart";
 
 function App() {
