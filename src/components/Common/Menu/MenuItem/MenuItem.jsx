@@ -1,5 +1,5 @@
 import React from "react";
-import ButtonAddRemoveItem from "../../../Common/ButtonAddRemoveItem/ButtonAddRemoveItem";
+import ButtonAddRemoveItem from "../../ButtonAddRemoveItem/ButtonAddRemoveItem";
 import "./styles.css";
 
 //redux

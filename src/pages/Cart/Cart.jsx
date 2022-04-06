@@ -1,6 +1,6 @@
 import React from "react";
-import Menu from "../../components/Home/Menu/Menu";
-import { menuItemsData } from "../../components/Home/Menu/data";
+import Menu from "../../components/Common/Menu/Menu";
+import { menuItemsData } from "../../components/Common/Menu/data";
 import Footer from "../../components/Common/Footer/Footer";
 import EmptyCart from "../../components/Cart/EmptyCart/EmptyCart";
 import { createStructuredSelector } from "reselect";
